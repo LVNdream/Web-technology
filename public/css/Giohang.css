@@ -1,0 +1,127 @@
+.cart {
+    font-size: 1.6rem;
+}
+
+.cart-left {
+    border-right: 1px solid #ccc;
+}
+
+.cart h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 50px 0;
+}
+
+.cart table thead {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+th, td {
+    padding: 5px 30px 5px 5px;
+}
+
+td, th {
+    text-align: center;
+}
+
+table thead {
+    border-bottom: 2px solid #ccc;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ccc;
+}
+
+th:last-child, td:last-child {
+    padding-right: 0;
+}
+
+th:first-child, td:first-child {
+    padding-left: 0;
+    text-align: left;
+}
+
+.product__item-img {
+    width: 70px;
+}
+
+.product__item-name {
+    font-size: 1.4rem;
+    color: #2e3192;
+}
+
+.product__item-price {
+    font-weight: 600;
+    transform: translateY(5px);
+}
+
+.product__item-count {
+    width: 30px;
+    outline: none;
+}
+
+.product__item-delete {
+    cursor: pointer;
+    color: rgb(143, 142, 142);
+}
+
+.product__item-delete:hover {
+    color: #333;
+    transform: scale(110%);
+}
+
+.cart-right {
+    padding: 8px 10px 0;
+    font-size: 1.4rem;
+}
+
+.cart-right h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.cart-sum {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.cart__discout-code {
+    width: 100%;
+    margin-top: 10px;
+    height: 30px;
+    outline: none;
+    padding: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.cart__discout-button, .cart__pay-button {
+    margin-top: 10px;
+    width: 100%;
+    outline: none;
+    height: 30px;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background-color: #fff;
+    transition: background-color .2s ease-in;
+}
+
+.cart__discout-button:hover {
+    background-color: #ccc;
+}
+
+.cart__pay-button {
+    color: #fff;
+    background-color: rgba(250, 11, 11, 0.8);
+    text-transform: uppercase;
+    height: 35px;
+}
+
+.cart__pay-button:hover {
+    background-color: rgb(253, 37, 37);
+}

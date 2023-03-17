@@ -1,0 +1,90 @@
+.account {
+    font-size: 1.6rem;
+}
+
+.login__form {
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(241, 241, 241);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+}
+
+.form__pay {
+    font-size: 1.6rem;
+}
+
+.form__pay-left {
+    border-top: 2px solid #ccc;
+    padding: 10px 0;
+}
+
+.form__pay-left h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.form__input {
+    margin-bottom: 20px;
+}
+
+.form__input label {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form__input-text {
+    display: block;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: box-shadow .2s ease-in;
+}
+
+.form__input-text:focus {
+    box-shadow: 0 0 2px 1px #ccc;
+}
+
+
+.form__pay-right {
+    padding: 20px;
+    border: 2px solid #446084;
+    height: fit-content;
+}
+
+.form__pay-right h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+table thead {
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ccc;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+td {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.order-btn {
+    padding: 10px 15px;
+    border: none;
+    color: #fff;
+    background-color: #ed1c24;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: background-color .2s ease;
+}
+
+.order-btn:hover {
+    background-color: #db0910;
+}

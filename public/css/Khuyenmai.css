@@ -1,0 +1,17 @@
+.promotion__message {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #2e3192;
+}
+
+.promotion {
+    overflow: hidden;
+}
+
+.promotion__banner {
+    transition: transform .4s;
+}
+
+.promotion__banner:hover {
+    transform: scale(110%);
+}
